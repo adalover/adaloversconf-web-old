@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Thasadith');
+@import "https://fonts.googleapis.com/css?family=Oswald:400,500,600,700";
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
 
 :root {
   --pink-color: rgb(184, 48, 104);
@@ -11,6 +12,10 @@ html,
 body {
   padding: 0;
   margin: 0;
+}
+
+body {
+  background: linear-gradient(rgba(92, 29, 83, 0.6), rgba(92, 29, 83, 0.6)), url("/intro-banner2_sm.png");
 }
 
 a {

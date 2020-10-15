@@ -5,7 +5,6 @@ import { JustifyText } from '../justifyText/JustifyText';
 
 const Container = styled.div`
    min-height: 100vh;
-   background: linear-gradient(rgba(92, 29, 83, 0.6), rgba(92, 29, 83, 0.6)), url("/intro-banner2_sm.png");
    background-position: center;
    background-size: cover;
    text-shadow: 0 0 4px rgba(0,0,0,0.5);
@@ -13,16 +12,40 @@ const Container = styled.div`
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   gap: 3rem;
+   margin: 2rem auto;
+   color: white;
+   font-family: roboto, sans-serif;
  `;
 
+const Title = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`;
+
+const Date = styled.p`
+  font-size: 35px;
+  margin: 0;
+
+  @media (max-width: 1024px) {
+    font-size: 26px;
+  }
+  @media (max-width: 786px) {
+    font-size: 20px;
+  }
+`;
+
 const Img = styled.img<any>`
-  max-width: 15vw;
+  max-width: 25vw;
+  margin-top: 1rem;
 `;
 
 export const FixedPhoto: FC = () => {
   return <Container>
-    <Logo urlImg="/logowhite-ADA-LOVERS-CONF.png"/>
+    <Title>
+      <Logo urlImg="/logowhite-ADA-LOVERS-CONF.png"/>
+      <Date>25 Septiembre 2021</Date>
+    </Title>
     <JustifyText>
       <p>Lamentándolo muchísimo, hemos decidido no celebrar la edición del #AdaLoversConf 2020.</p>
       <p>En todo momento hemos querido que la conferencia sea un punto de encuentro y reunión en el que estemos

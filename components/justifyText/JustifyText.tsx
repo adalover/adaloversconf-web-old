@@ -4,10 +4,12 @@ import styled from '@emotion/styled';
 const Container = styled.div`
   width: 70vw;
   text-align: justify;
-  font-size: 24px;
+  font-size: 20px;
   color: #FFF;
+  margin-top: 3rem;
+
   @media(max-width: 1024px) {
-    font-size: 20px;
+    font-size: 18px;
   }
   @media(max-width: 540px) {
     font-size: 16px;
