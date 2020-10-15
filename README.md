@@ -19,11 +19,11 @@ AdaLoveDev is a community of women who want to make more visible the role of gir
 
 We are a non-profit organization focused on the engagement, visibility and empowerment of women in technology, mainly programming and IT.
 
-Our name comes from Ada Lovelace + love + development (adalovdev). Ada is considered the person who wrote instructions for the first computer program and most of us are developers.
+Our name comes from Ada Lovelace + development (AdaLoveDev). Ada is considered the person who wrote instructions for the first computer program and most of us are developers.
 
 ### AdaLoversConf
 
-AdaLoversConf is an annual event of the community AdaLoveDev. The main objective of this event is the visualization of girls in the development world 👩‍💻. This year we celebrate it on Tenerife, Canary Islands, Spain. Sep, 28th 2019.
+AdaLoversConf is an annual event of the community AdaLoveDev. The main objective of this event is the visualization of girls in the development world 👩‍💻. This year we celebrate it on Tenerife, Canary Islands, Spain.
 
 ## Contribution 👩‍💻👨‍💻
 Show the [contributing file](CONTRIBUTING.md)
